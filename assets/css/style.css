@@ -1,3 +1,6 @@
+* {
+    font-family: helvetica;
+}
 body {
     margin: 0;
     padding: 0;
@@ -58,8 +61,11 @@ nav a:hover {
     color: #FFFFFF;
 }
 #banner {
+    /*para centralizar o conteúdo*/
+    display: flex;
+    justify-content: center;
     /*seleciona a imagem como fundo*/
-    background-image:url('../images/banner.jpg');
+    background-image:url('../images/banner2.jpg');
     /*posiciona a imagem no meio*/
     background-position: center;
     /*este atributo expande a imagem pra ser exibida tanto em monitores grande
@@ -67,4 +73,117 @@ nav a:hover {
     background-size: cover;
     /*tamanho do layout original*/
     height: 670px;
+}
+.column {
+    /*posiciona as divs em colunas, uma embaixo da outra*/
+    flex-direction: column;
+
+}
+.banner_headline {
+    /*pra ficar com tamanho variável*/
+    flex: 1;
+    /*para que os elementos fiquem um ao lado do outro*/
+    display: flex;
+    /*estabelece a direçao, neste caso em colunas*/
+    flex-direction: column;
+    /*pra que o posicionamento seja centralizado*/
+    justify-content: center;
+    
+    
+        
+}
+.banner_options {
+    /*sem o flex:1 vai ficar com tamanho fixo*/
+        height: 210px;
+        display: flex;
+}
+.banner1, 
+.banner2,
+.banner3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 20px;
+    
+}
+.banner1 {
+    background-color: #42b3e5;
+}
+.banner2 {
+    background-color: #0384CE;
+}
+.banner3 {
+    background-color: #3156A3;
+    
+}
+
+.banner_title {
+    color: #FFFFFF;
+    font-size: 19px;
+
+}
+.banner_desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    font-stretch: condensed;
+    line-height: 20px;
+}
+     
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-stretch: condensed;
+    letter-spacing: 1px;
+    font-size: 85px;
+    text-shadow: 0px 1px 0px #555555;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+
+}
+.banner_headline h2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-stretch: semi-condensed;
+    letter-spacing: 0.5px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 35px;
+}
+
+.banner_options a {
+    /*este atributo faz o dimensionamento acompanhar o texto*/
+    display: flex;
+    width: 90px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+.banner_options a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.banner3 .banner_desc .div1, .div2, .div3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    border-bottom: 1px solid #506977 ;
+    padding: 5px, 0;
+    margin-bottom: 10px;
 }
