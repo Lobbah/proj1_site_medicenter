@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container   {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    
+    
+}
+    
+.logo {
+    display: flex;
+    align-items: center;
+    
+
+}
+.menu {
+    /*centralizar os itens dentro da div*/
+    display: flex;
+    align-items: center;
+
+}
+nav ul, nav li {
+    
+    /*Pra não exibir os marcadores, as margens e o padding*/
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    /*pra que os itens no menu se posicionem um ao lado do outro*/
+    display: flex;
+}
+nav a {
+    /*pra que haja a possibilidade de alterar tamanhos, area do link, etc*/
+    display: block;
+    /* pra dar espaçamento entre os links*/
+    padding: 15px;
+    /*não exibir o sublinhado no link*/
+    text-decoration: none;
+    /*transforma a fonte em maiusculo, independente da fonte do html*/
+    text-transform: uppercase;
+    color: #727272;
+    font-family: arial;
+}
+/*aplica estes atributos quando o link estiver ativo e/ou quando passar o 
+mouse em cima*/
+nav .active a, 
+nav a:hover {
+    background-color: #39aae1;
+    color: #FFFFFF;
+}
+#banner {
+    /*seleciona a imagem como fundo*/
+    background-image:url('../images/banner.jpg');
+    /*posiciona a imagem no meio*/
+    background-position: center;
+    /*este atributo expande a imagem pra ser exibida tanto em monitores grande
+    quanto em telas reduzidas*/
+    background-size: cover;
+    /*tamanho do layout original*/
+    height: 670px;
+}
