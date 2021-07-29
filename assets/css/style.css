@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 header {
     display: flex;
@@ -45,7 +46,7 @@ nav a {
     /*pra que haja a possibilidade de alterar tamanhos, area do link, etc*/
     display: block;
     /* pra dar espaçamento entre os links*/
-    padding: 15px;
+    padding: 25px;
     /*não exibir o sublinhado no link*/
     text-decoration: none;
     /*transforma a fonte em maiusculo, independente da fonte do html*/

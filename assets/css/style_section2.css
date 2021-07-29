@@ -1,0 +1,72 @@
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+    
+}
+#geral aside {
+    flex: 1;
+    
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+
+}
+.widget_body {
+    display: flex;
+    justify-content: space-between;
+
+
+} 
+.widget_body .col1 .subcol1_1, .subcol1_2, .subcol1_3, 
+.col2 .subcol2_1, .subcol2_2, .subcol2_3
+ {
+    width: 150px;
+    height: 150px;
+    background-color: #42b3e5;
+    
+    
+}
+.subcol1_1, .subcol1_2, .subcol1_3{
+display: inline-block;
+margin-bottom: 15px;  
+margin-top: 15px ;
+margin-right: 15px;
+ 
+}
+.subcol2_1, .subcol2_2, .subcol2_3{
+    display: inline-block;
+    margin-bottom: 15px;  
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.widget_body2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.widget_body2 .desc, .phone, .email, .link {
+    border-bottom: 1px solid #777777;
+}
+.widget_body2 .desc, .phone, .email, .link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.phone img, .email img, .link img {
+    padding-right: 15px;
+}
