@@ -70,3 +70,57 @@ margin-right: 15px;
 .phone img, .email img, .link img {
     padding-right: 15px;
 }
+/*Esta propriedade que os elementos flexibilizem e se desloquem*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    min-width: 300px;
+    margin-right: 20px;
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 10px;
+    
+    
+}
+article .news_data{
+    display: flex;
+    
+}
+.news_posted_at {
+    background-color: #3156A3;
+    margin-right: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.news_comments {
+    background-color: #42B3E5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 14px;
+}
+.news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+.news_title {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news_release {
+    line-height: 25px;
+    color: #5c5c5c;
+}
+a:visited {
+    color: #000000;
+}
+article a {
+    text-decoration: none;
+}
