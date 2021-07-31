@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    padding-bottom: 300px;
+    
 }
 
 header {
@@ -23,6 +23,8 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    margin-right: 50px;
+    
     
 
 }
@@ -30,6 +32,7 @@ header {
     /*centralizar os itens dentro da div*/
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 nav ul, nav li {
@@ -57,10 +60,15 @@ nav a {
 }
 /*aplica estes atributos quando o link estiver ativo e/ou quando passar o 
 mouse em cima*/
-nav .active a, 
-nav a:hover {
+nav .active a {
     background-color: #39aae1;
     color: #FFFFFF;
+    
+} 
+
+
+nav a:hover {
+     border: 1px solid #39aae1;
 }
 #banner {
     /*para centralizar o conteúdo*/

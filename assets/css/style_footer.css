@@ -1,0 +1,147 @@
+footer {
+    margin-top: 15px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+/*flexibiliza p deslocamento dos elementos*/
+.footer_menu {
+    display: flex;
+    
+}
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 25px;
+}
+.fm1 {
+    background-color: #42b3e5;
+}
+.fm2 {
+    background-color: #0384CE;
+}
+.fm3 {
+    background-color: #3156A3;
+    
+}
+.fm_title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.fm_resume {
+    font-size: 14px;
+}
+.footer_area {
+    display: flex;
+     
+    
+}
+.footer_areaitem {
+    flex: 1;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 14px;
+}
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: #FFFFFF;
+    font-weight: lighter;
+    
+}
+footer .widget_body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #888888;
+}
+.areaitem_contact {
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+}
+.contactdata_email {
+    color: #FFFFFF;
+    margin-right: 15px;
+    
+}
+.contactdata_phone {
+    padding-top: 20px;
+    
+}
+.icons {
+    display: flex;
+    flex: 1;
+}
+.icon1, .icon2,.icon3,.icon4 {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #666666;
+    margin-right: 6px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none ;
+    border-radius: 2px;
+       
+}
+.widget_body-posts {
+    display: block;
+}
+footer .item_resume {
+   color: #EEEEEEEE;
+}
+footer  .item_resume_posted {
+    color: #3EB3D9 ;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    
+}
+footer  .item_resume_posted .posted {
+    list-style: none;
+    
+}
+
+
+.footer_copy {
+    display: flex;
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer_menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.item_resume a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.item_resume a:hover {
+    text-decoration-line: underline;
+}
+.img_copy { 
+    background-color: #CCCCCC;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.img_lobbah {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.img_b7web {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
